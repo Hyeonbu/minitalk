@@ -6,7 +6,7 @@
 /*   By: chanjeon <chanjeon@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 00:08:41 by chanjeon          #+#    #+#             */
-/*   Updated: 2022/07/19 10:11:08 by chanjeon         ###   ########.fr       */
+/*   Updated: 2022/07/19 17:29:13 by chanjeon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define MINITALK_BONUS_H
 
 # include "libft/libft.h"
-# include <unistd.h>
 # include <signal.h>
 
 /* client_bonus.c */

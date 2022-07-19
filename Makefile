@@ -6,7 +6,7 @@
 #    By: chanjeon <chanjeon@student.42seoul.kr      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/18 04:17:20 by chanjeon          #+#    #+#              #
-#    Updated: 2022/07/19 10:25:06 by chanjeon         ###   ########.fr        #
+#    Updated: 2022/07/19 17:31:11 by chanjeon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -58,5 +58,3 @@ fclean: clean
 		rm -f server client libft/libft.a
 
 re: fclean all
-
-.PHONY: all bonus clean fclean re

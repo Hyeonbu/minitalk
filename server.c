@@ -6,7 +6,7 @@
 /*   By: chanjeon <chanjeon@student.42seoul.kr      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 14:46:34 by chanjeon          #+#    #+#             */
-/*   Updated: 2022/07/19 09:13:15 by chanjeon         ###   ########.fr       */
+/*   Updated: 2022/07/19 17:34:17 by chanjeon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ int	main(int argc, char **argv)
 
 	(void)argv;
 	if (argc != 1)
-		print_error("./server [NO_ARGURMENT]");
+		print_error("./server [NO_ARGUMENT]");
 	ft_putstr_fd("SERVER PID : [", 1);
 	ft_putnbr_fd(getpid(), 1);
 	ft_putstr_nl("]");
